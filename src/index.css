@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #EEE;
+    font-family: sans-serif;
 }
 .whole-card{
     height: auto;
@@ -69,4 +70,14 @@ body{
 .navbar nav ul li .nav:hover{
     background-color: #fff;
     color: red;
+}
+
+/*Bootstrap Start Here */
+.first{
+    height: 100px;
+    background-color: red;
+}
+.sec{
+    height: 100px;
+    background-color: green;
 }
