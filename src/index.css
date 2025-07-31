@@ -45,3 +45,28 @@ body{
     text-transform: uppercase;
     border-radius: 3px;
 }
+
+/*navbar start here */
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+    padding-top: 5px;
+}
+.navbar nav ul li{
+    display: inline-block;
+}
+.navbar nav ul li .nav{
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+
+.navbar nav ul li .nav:hover{
+    background-color: #fff;
+    color: red;
+}
